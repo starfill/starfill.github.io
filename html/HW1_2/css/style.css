@@ -1,0 +1,51 @@
+
+
+body {
+	background-color:#F3F1F1;}
+ 
+div {
+	width:500px;
+	margin:0 auto
+ }
+ 
+ .name {
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 text-align:center;}
+ 
+ .photo{
+	 text-align:center;
+ 	} 	
+	
+ .about {
+	 font-size:15px;	 
+	}
+	
+.whatfor { 
+	font-weight:bold;
+	border-top: 1px solid grey;
+	}
+	
+.phonenumber {
+	font-weight:bold;
+	border-top: 1px solid grey;
+	}
+	
+    .fbcontact {
+		font-weight:bold;
+	border-top: 1px solid grey
+	}
+	
+	.link  {
+		padding-left:25px;
+		font-style:oblique;
+		}
+	
+	.feedback {
+	font-weight:bold;
+	border-top: 1px solid grey;
+	}
+ 
+ 	  
+ 
+ 
