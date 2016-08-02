@@ -1,0 +1,90 @@
+body { 
+font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	width: 965px;
+	margin: 0 auto;	
+}
+
+ .header { 
+  margin-top: 30px;
+  background : #666666;
+  }	
+
+.top li { 
+	display: inline-block;
+	text-align: center;
+	}
+
+.top a  {
+	display: block;
+	padding: 12px 36px;
+	color: white;
+	font-size: 14px; 	
+    text-decoration: none;
+}
+
+.top li a:hover {
+   background: #333333; /* Цвет блока при наведении курсора. */
+  
+}
+ .sidebar {
+	 width: 240px;
+	 height: 240px;
+	 margin-top:40px;
+	 border: 1px solid grey;
+	 float: left;
+ }
+ 
+.sidebar a {
+    display: block;
+    margin-bottom: -1px;
+    padding: 11.5px 14px;
+    text-decoration: none;
+    color: grey;
+    border: 1px solid #grey;
+	background: #ffffff;
+}
+
+ .sidebar a:hover {
+   background: #cccccc;
+   color: black; /* Цвет блока при наведении курсора. */
+   font-weight: bold;
+   padding-left: 20px;
+  }
+  
+.content { 
+    width: 676px;
+	margin-top: 40px;
+	margin-left: 290px;
+	}
+
+.text { 
+    font-size: 13.33px;
+	margin-top: 37px;
+	margin-left: 12px;
+	color: #333333;	
+}
+
+.footer { 
+  margin-top: 30px;
+  background : #cccccc;
+  }	
+
+.footer li { 
+	display: inline-block;
+	text-align: center;
+	}
+
+.footer a  {
+	display: block;
+	padding: 12px 36px;
+	color: grey;
+	font-size: 13px; 	
+    text-decoration: none;
+}
+
+.footer li a:hover {
+text-decoration: underline
+}
