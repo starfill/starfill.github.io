@@ -5,11 +5,13 @@ font-family: 'Open Sans', sans-serif;
 .wrapper {
 	width: 965px;
 	margin: 0 auto;	
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
  .header { 
   margin-top: 30px;
-  background : linear-gradient(to top, #464545, #5d5d5d);
+  background : linear-gradient(to top, #464545, #5e5e5e);
   }	
 
 .top li { 
@@ -26,7 +28,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .top li a:hover {
-   background: #333333; /* Цвет блока при наведении курсора. */
+   background: linear-gradient(to top, #2f2f2f, #4a4a4a); /* Цвет блока при наведении курсора. */
   
 }
  .sidebar {
@@ -39,23 +41,23 @@ font-family: 'Open Sans', sans-serif;
  
 .sidebar a {
     display: block;
-    margin-bottom: -1px;
-    padding: 0px 14px;
-	line-height: 37.33px;
+    padding: 13.1px 14px;
     text-decoration: none;
 	font-size: 13.33px;
     color: grey;
-    border:1px solid grey ;
+    border-bottom:1px solid grey ;
 	background: #ffffff;
 }
 
  .sidebar a:hover {
-   background: #cccccc;
-   color: black; /* Цвет блока при наведении курсора. */
+   background: #f9f9f9;
+   color:  black; /* Цвет блока при наведении курсора. */
    font-weight: bold;
    padding-left: 20px;
   }
-  
+  .sidebar li:last-child  a {
+	  border-bottom: none ;
+  }
 .content { 
     width: 676px;
 	margin-top: 40px;
