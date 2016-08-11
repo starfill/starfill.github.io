@@ -1,0 +1,72 @@
+body { 
+height: 100%;
+background: url(../img/background.png) repeat-x;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 990px;
+  font-size: 14px;
+  font-family: Tahoma;
+  margin: 0 auto;
+  background: #ffffff;
+  }
+   .header {
+	   margin-top: 38px;
+	   height: 200px;
+	   	   
+   }
+   .header .logo {
+	   background: url(../img/logo.png) no-repeat;
+	   width: 308px;
+	   height: 173px;
+	   position: relative;
+	   float: left;
+	   top: 10px;
+	   left: 50px;
+   }
+   .header .logo h1 a {
+	   position: absolute;
+	   color: #128aa7;
+	   text-decoration: none;
+	   font-size: 12px;
+	   top: 97px;
+	   left: 25%;
+   }
+   .header .headerright{
+	float: right;
+	margin: 10px 21px 10px 0;
+   
+   }
+   .header .contacts { 
+   float: right;
+   margin-bottom: 10px
+   
+   
+   }
+   .header .contacts p {
+	 font-size: 12px;
+	 font-weight: bold;
+	 color: #128aa7;
+	 
+   }
+   .header .contacts a {
+	  text-decoration: none;
+      display: block;
+	  margin-top: 5px;	
+      color: #128aa7;
+   }
+     
+	}
+	.header .countries  {
+		clear: both;
+					
+	}
+	.header .countries .countrymenu {
+		float: right;
+		text-align: center;
+	}
+	
+
+
+ 
