@@ -1,0 +1,233 @@
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+   body {
+	background : black;   
+    font-family: "Helvetica Neue Regular";
+	 font-size: 16px;
+	 color: #ffffff;
+	
+}
+ 
+ .wrapper {
+	 background-image: url(../img/background.png) ;
+	 display: block;
+	 width: 1215px;
+     height: 1064px; 
+	 margin: 0 auto;
+	 line-height: 14px;	
+	 
+ }
+ 
+ .menu {
+    height: 38px;
+	width: 1215px;
+    background: linear-gradient(to top, #074d8a, #085596);
+	
+ }
+ 
+ .clearfix:after {
+	 content: ' ';
+	 clear: both;
+	 display: block;
+ }
+ 
+ .menu_items {
+	 float: right;
+	 display: inline-flex;
+ }
+ .menu_items li {
+     display: inline-flex;
+        
+	 
+}
+
+.menu_link  {
+	display: block;
+	color: #58a9e1;
+    text-decoration: none;
+    padding: 10px;
+	text-align: center;
+	
+}
+.menu_link:hover{
+    background: #4eabda;
+    color: #ffffff;
+}
+.line {
+    margin:  3px;
+    width: 2px;
+    border-left: 1px solid #56a2dc;
+	float:right;
+}
+.right_items {
+display:inline-flex;}
+
+.flag {
+    background: url(../img/flag.png);
+    margin: 8px;
+    width: 21px;
+    height: 21px;}
+
+.first_link , .second_link {
+display: block;
+line-height: 37px;
+
+padding-right: 10px;
+}
+
+.second_link {
+	display:block;
+    height: 37px;
+    padding: 0px 10px 0 10px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+ .second_link a {
+ color: #ffffff;
+ }
+ 
+ .form {
+	 margin: 210px auto ;
+	 height: 610px;
+	 width: 560px;
+	 background-color: rgba(0, 0, 0, 0.6);
+	 display: block;	
+ }
+ .form_header {
+	 height: 57px;
+	 width: auto;
+	 border-bottom: 2px solid white;
+	 text-align: center;
+	 font-size: 24px;
+	 line-height: 57px;
+ }
+ .content {
+	 display: block;
+	 width: 277px;
+	 height: 37px;
+	 background: linear-gradient(to top, #2c4178, #3c5598);
+	 margin: 30px auto;
+	 border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	border-top: 1px solid #4e66a2;
+ }
+ 
+ .facebook_logo {
+	 position: relative;
+	 display: block;
+	 width: 35px;
+	 height: 35px;
+	 border-right: 1px solid #2c3a5d;
+	 border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+ .facebook_logo img {
+	 position: absolute;
+	 top: 8px;
+	 left: 14px;
+ }
+ .facebook_note {
+	 display: block;
+	 position: absolute;
+	 width: 227px;
+	 height: 36px;
+	 left: 52px;
+ }
+ .facebook_note span {
+	 display: inline-block;
+	 text-align: center;
+	 padding-top: 10px;
+	 padding-right: 5px;
+	 
+	 }
+	 .facebook_note .bold {
+		 font-weight: bold;
+	 }
+	 .border {
+		 margin-top: 30px;
+	 }
+	 fieldset {
+     display: block;
+	width: 255px;	 
+    margin: 0 auto;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    padding-top: 30px;
+}
+	 
+	 legend {
+	text-align: center;
+	padding: 0 5px;
+	color: #666666;
+	 }
+	 
+	 input[type='text'],
+     input[type='email'],
+     input[type='password'] {
+	width: 255px;
+	height: 35px;
+	background: #101010;
+	margin-bottom: 10px;
+	border: none;
+	padding: 2px 5px 2px 15px;
+	color: #fff;
+	 border-bottom: 1px solid #666666;
+	 }
+	 
+	 input[type='text']:focus,
+     input[type='email']:focus,
+     input[type='password']:focus{
+	background: #1b5288;
+	box-shadow: 0 0 8px 1px rgba(141, 209, 237, .6);
+	 color: #fff;}
+ 
+ input[type='submit']{
+	  display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+/*BOTTOM GRADIENT    */
+    border:1px solid #2994c9;
+   
+    
+    border-radius: 3px;
+    font-size:12px;
+    padding: 10px 10px 10px 10px;
+    text-decoration:none;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    color: #FFFFFF;
+    background-color: #4FADDB;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4FADDB), to(#2e7ac4));
+    background-image: -webkit-linear-gradient(top, #4FADDB, #2e7ac4);
+    background-image: -moz-linear-gradient(top, #4FADDB, #2e7ac4);
+    background-image: -ms-linear-gradient(top, #4FADDB, #2e7ac4);
+    background-image: -o-linear-gradient(top, #4FADDB, #2e7ac4);
+    background-image: linear-gradient(to bottom, #4FADDB, #2e7ac4);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4FADDB, endColorstr=#2e7ac4);
+}
+	
+	.agreement {
+		display: block;
+		font-size: 11px;
+		text-align: center;
+		line-height: 17px;
+	}
